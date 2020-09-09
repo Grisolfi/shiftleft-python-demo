@@ -1,10 +1,6 @@
-variables:
-- group: shiftleft-token
 
 trigger:
-- master
-- feature/*
-
+- azure-pipelines-test
 pool:
   name: EC2
 
