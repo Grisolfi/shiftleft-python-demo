@@ -10,5 +10,5 @@ container:
 steps:
   - script: |
       flow --version
-      apk add curl
-      curl http://172.31.51.201
+      python3 -c "url='http://172.31.51.201'; import requests; rp = requests.get(url); print(rp.text)"
+
