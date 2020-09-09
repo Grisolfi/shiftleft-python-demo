@@ -10,4 +10,5 @@ container:
 steps:
   - script: |
       flow --version
+      apk add curl
       curl http://172.31.51.201
