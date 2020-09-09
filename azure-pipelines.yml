@@ -2,7 +2,7 @@
 trigger:
 - azure-pipelines-test
 pool:
-  name: EC2
+  name: Default
 
 steps:
   - script: echo "Hello World."
