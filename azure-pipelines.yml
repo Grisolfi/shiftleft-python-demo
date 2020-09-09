@@ -4,5 +4,10 @@ trigger:
 pool:
   name: Default
 
+container:
+    image: 'convisoappsec/flowcli'
+
 steps:
-  - script: echo "Hello World."
+  - script: |
+      flow --version
+      curl http://172.31.51.201
