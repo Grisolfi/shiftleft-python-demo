@@ -9,7 +9,7 @@ workflows:
 jobs:
  flow-deploy-sast: 
     docker: 
-      - image: "convisoappsec/flowcli"
+      - image: "convisoappsec/flowcli:1.2.1"
     environment:
       FLOW_PROJECT_CODE: "u1oW48zMhwkJ_QD-"
     steps:
