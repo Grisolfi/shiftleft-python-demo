@@ -12,6 +12,8 @@ jobs:
       - image: "convisoappsec/flowcli:1.2.1"
     environment:
       FLOW_PROJECT_CODE: "u1oW48zMhwkJ_QD-"
+      FLOW_API_KEY: $FLOW_API_KEY
+      FLOW_API_URL: $FLOW_API_URL
     steps:
       - setup_remote_docker
       - checkout
